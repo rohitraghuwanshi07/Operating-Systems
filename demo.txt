@@ -1,0 +1,5 @@
+Operating System is an important subject.
+We are learning file handling.
+Operating System uses system calls.
+Processes are managed by the Operating System.
+This is a simple grep implementation.
