@@ -1,0 +1,4 @@
+CSL301 Operating Systems Lab 6
+Task 2 TCP File Transfer
+This file is being uploaded from the client to the server.
+File transfer using TCP is reliable and uses a fixed-size buffer.

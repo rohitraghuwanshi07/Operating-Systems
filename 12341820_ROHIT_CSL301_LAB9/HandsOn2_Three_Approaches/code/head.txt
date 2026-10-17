@@ -1,0 +1,16 @@
+#define _DEFAULT_SOURCE
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/mman.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+#define ITERATIONS 1000
+#define DELAY_US 10
+
+typedef struct {
+    volatile int counter;
+    volatile int turn;
+    volatile int flag[2];
+} SharedData;
+
